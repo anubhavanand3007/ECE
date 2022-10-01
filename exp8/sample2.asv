@@ -1,0 +1,9 @@
+clc;
+close all;
+clear all;
+% a)
+a = imread('lena_gray.bmp','bmp');
+subplot(211),imshow(a), title('a) Image');
+% b)
+J = histeq(a,255);
+subplot(212), plot(a), title('b) Negative of the image');

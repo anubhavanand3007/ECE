@@ -1,0 +1,2 @@
+I = imread('coins.png');
+imshow(I)
